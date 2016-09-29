@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "build": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -o style.css style.scss",
-    "watch": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -o style.css -w style.scss"
+    "watch": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -w -o style.css style.scss"
   },
   "author": "",
   "license": "ISC"
