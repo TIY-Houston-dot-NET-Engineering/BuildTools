@@ -6,6 +6,6 @@ curl https://raw.githubusercontent.com/TIY-Houston-dot-NET-Engineering/BuildTool
 npm install
 echo "node_modules" > .gitignore
 hub create <PROJECTNAME>
-
+npm run watch
 # now edit and build as usual :-)
 ````
