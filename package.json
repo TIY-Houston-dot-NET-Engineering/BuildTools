@@ -1,0 +1,19 @@
+{
+  "name": "CHANGEME",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^6.5.0",
+    "csswring": "^5.1.0",
+    "postcss-cli": "^2.6.0",
+    "precss": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -o style.css style.scss",
+    "watch": "postcss --use autoprefixer --autoprefixer.browsers \"last 50 versions\" --use precss --use csswring -o style.css -w style.scss"
+  },
+  "author": "",
+  "license": "ISC"
+}
